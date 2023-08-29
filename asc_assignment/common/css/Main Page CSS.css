@@ -1,0 +1,181 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #5C6AC4;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Content Area */
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9F9F9; /* Off-white background */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Book Container */
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* White background */
+}
+
+.book-info img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+/* Book Details Styling */
+.book-info h2,
+.book-info p {
+  margin: 0;
+}body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9; /* Light background for the entire page */
+  color: #333333; /* Dark gray text color */
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #5C6AC4; /* Blue background for the navigation bar */
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Content Area */
+.content {
+  margin-left: 220px; /* Increased the margin for better alignment with the navbar */
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Book Container */
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff; /* White background for book containers */
+}
+
+/* Tidy up Book Details Styling */
+.book-info h2 {
+  margin-bottom: 10px;
+}
+
+.book-info p {
+  margin: 5px 0;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Special Accent Styles */
+a {
+  color: #5C6AC4; /* Blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD700; /* Gold links on hover */
+}
+
+.read-button {
+  background-color: #5C6AC4;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}

@@ -1,0 +1,51 @@
+	/* Add this CSS to your existing stylesheet or add it in a style tag */
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Optional: Set a min-width to the table to ensure it's not too narrow */
+table {
+  min-width: 1000px;
+}
+/* Text justification for the book summary */
+table td:nth-child(7) {
+  text-align: justify;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Add some spacing between cells */
+table td {
+  line-height: 1.5;
+}
+
+/* Optional: Style the delete button */
+button {
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
